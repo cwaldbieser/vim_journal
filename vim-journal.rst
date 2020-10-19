@@ -21,7 +21,11 @@ Working On
 * nerdtree: IDE like file explorer
 * neomake: run code linters; :lnext :lprev for navigating errors
 * neoformat: automatically format code
-* vim-unimpared: shortcut pairs like [l and ]l for :lprev and :lnext
+* vim-unimpaired: shortcut pairs like [l and ]l for :lprev and :lnext
+* folding: set foldmethod=indent zM zR ...
+* fzf
+* fugitive
+* Reverse lines.  See :help 12.4
 
 Future
 ------
@@ -77,12 +81,19 @@ Drill 05 - window (aka split) management
 * set winfixheight
 * Create new splits
 * Close split with <C-w> c
-*
+* Close all splits except current with :only
+* Move current window to top, bottom, left, right with CTRL-W J K H L
+* 
 
 Drill 06 - macros
 """""""""""""""""
 
 * Create a macro and apply it to all lines `:%norm! @a`
+
+Drill 07 - folding
+""""""""""""""""""
+
+* Practice folding and unfolding.
 
 
 

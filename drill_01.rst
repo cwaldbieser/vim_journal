@@ -7,12 +7,12 @@ Movement Drills
 
 * hjkl
 * w-e-b, W-E-B
-* f-t
+* f-t , ;
 * g0 gm g$
 * H M L
 * { } ( )
 
-This is a very long line and it is going to wrap around. How do I know? I am just going to type for a long time, even if I am not saying anything particularly profound. It will be a fair amount of content, but for most screens, it will be more than 1 screen line.
+This is a very long line and it is going to wrap around. How do I know? I am just going to type for a long time, even if I am not saying anything particularly profound. It will be a fair amount of content, but for most screens, it will be more than 1 screen line. This is one more sentence.
 
 
 Relative Number

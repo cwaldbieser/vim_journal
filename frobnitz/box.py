@@ -1,4 +1,6 @@
 
+from .widgets import WidgetDimensionsError
+
 
 class Box(object):
     """
@@ -40,4 +42,3 @@ class Box(object):
             for widget in self.widgets:
                 parts.append("- {}".format(widget))
         return "\n".join(parts)
-

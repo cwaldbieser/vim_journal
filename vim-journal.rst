@@ -1,4 +1,3 @@
-
 VIM Practice Journal
 ====================
 
@@ -33,7 +32,6 @@ Future
 * (more) g-movements
 * apply a macro to all lines: :%norm! @a
 * tab groupings / tab switching
-* vim slides ???
 * Highlight groups: `so $VIMRUNTIME/syntax/hitest.vim`
 * Plugins:
   * Plug 'jiangmiao/auto-pairs' : auto-finish quotes, parentheses
@@ -74,6 +72,7 @@ Navigate to code definitions using jedi-vim.  Replace names and examine docs.
 * <leader>d : goto definition
 * <leader>n : show usage in quickfix window
 * <leader>r : rename
+* [[ ]] [m ]m for function and method navigation. 
 
 Drill 05 - window (aka split) management
 """"""""""""""""""""""""""""""""""""""""
@@ -83,7 +82,7 @@ Drill 05 - window (aka split) management
 * Close split with <C-w> c
 * Close all splits except current with :only
 * Move current window to top, bottom, left, right with CTRL-W J K H L
-* 
+* Close all splits except this one: CTRL-w o (only this one).
 
 Drill 06 - macros
 """""""""""""""""
@@ -94,6 +93,7 @@ Drill 07 - folding
 """"""""""""""""""
 
 * Practice folding and unfolding.
+* set foldmethod=indent
 
 
 

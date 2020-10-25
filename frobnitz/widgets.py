@@ -1,9 +1,8 @@
-
-
 class Widget(object):
     """
     A simulated widget.
     """
+
     def __init__(self, length, w, h, mass, color):
         self.height = h
         self.length = length
@@ -23,19 +22,15 @@ class Widget(object):
         """
         The approximate density of the widget.
         """
-        return (self.volume / self.mass)
+        return self.volume / self.mass
 
     def __str__(self):
         desc = (
             "A {} widget of size {}x{}x{} units"
             " with volume {} units-cubed and density {}."
         ).format(
-            self.color,
-            self.length,
-            self.width,
-            self.height,
-            self.volume,
-            self.density)
+            self.color, self.length, self.width, self.height, self.volume, self.density
+        )
         return desc
 
 

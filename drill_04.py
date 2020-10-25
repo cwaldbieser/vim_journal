@@ -6,6 +6,7 @@
 # - Show docs
 # - Rename functions / variables
 # - Show usage of name.
+# - Method navigation with [m and ]m
 # - Remember to use jump list (CTRL-O) to jump back!
 
 from frobnitz.widgets import Widget, WidgetDimensionsError

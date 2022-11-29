@@ -115,6 +115,11 @@ Drill 08 - folding
 * zj, zk navigation
 * zo, ZO, zc, ZC, zr, zR, zm, zM
 
+Drill 09 - scrolling
+""""""""""""""""""""
+
+* C-D and C-U to scroll down and up while keeping cursor in the same spot.
+* C-F and C-B for paging forward and backwards.
 
 
 Old Practices
